@@ -15,7 +15,7 @@ function First() {
 				console.log("useEffect called when cleaning up");
 			};
 		},
-		[greeting] // this is the list of variables the effect should repsond to
+		[greeting] // this is the list of variables the effect should respond to
 	);
 
 	return <div className="App">First component: {greeting}</div>;
